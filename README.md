@@ -8,3 +8,5 @@ Dados: Proyecto el cual está basado en clickear un boton y hacer "girar" los da
 Tareas: Listado de Tareas que presenta las siguientes funcionalidades: × Agregar una Tarea. × Marcar como Terminada la Tarea. × Eliminar una Tarea. Link de la aplicacion: https://fascinating-kitsune-c79463.netlify.app/
 
 Convertidor: Convertidor el cual calcula el cambio de Euro, Dolar y Libra, NO se conecta a una API (por el momento). Link del Convertidor: https://sprightly-pastelito-698222.netlify.app/
+
+CalculadoraBMI: Calculadora para conocer el Indice de Masa Muscular de una persona. Link de la calculadora: https://66315a02a9c5cb28c0dc62b0--gentle-yeot-4adafe.netlify.app/
