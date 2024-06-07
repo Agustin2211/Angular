@@ -36,7 +36,24 @@ export class ListaDeEmpleadosComponent {
 
   ];
 
+    radioButtonSeleccionado = "todos";
   constructor() {}
 
+  conteoEmpleados(): number{
+    return this.listEmpleados.length;
+  }
+
+  conteoSexoFemenino(): number{
+    return this.listEmpleados.filter(list => list.sexo === 'Femenino').length;
+  }
+
+  conteoSexoMasculino(): number{
+    return this.listEmpleados.filter(list => list.sexo === 'Masculino').length;
+  }
+
+  empleadoConteoRadioButtonChange(radioButtonSelect: string) : void{
+    console.log(radioButtonSelect);
+    this.radioButtonSeleccionado = radioButtonSelect;
+  }
 
 }
