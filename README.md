@@ -10,3 +10,5 @@ Tareas: Listado de Tareas que presenta las siguientes funcionalidades: × Agrega
 Convertidor: Convertidor el cual calcula el cambio de Euro, Dolar y Libra, NO se conecta a una API (por el momento). Link del Convertidor: https://sprightly-pastelito-698222.netlify.app/
 
 CalculadoraBMI: Calculadora para conocer el Indice de Masa Muscular de una persona. Link de la calculadora: https://66315a02a9c5cb28c0dc62b0--gentle-yeot-4adafe.netlify.app/
+
+ListaDeEmpleados: Lista de Empleados de una empresa ficticia en la cual ya hay comunicacion entre un componente padre y un hijo. El componente padre le envia la informacion al hijo de la cantidad de empleados que hay. El componente hijo le envia al padre que hay seleccionado para que realice el filtro: https://6663629ddadd501f9cfe0495--sparkling-figolla-f03961.netlify.app/
