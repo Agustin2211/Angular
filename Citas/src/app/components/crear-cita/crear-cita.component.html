@@ -1,0 +1,25 @@
+<div class="card bg-light">
+  <div class="card-body">
+    <h5 class="card-title text-center">CREAR CITA</h5>
+    <div class="text-center" *ngIf="formularioIncorrecto">
+      <span class="badge rounded-pill text-bg-danger">TODOS LOS CAMPOS SON OBLIGATORIOS</span>
+    </div>
+    <div class="form-group mb-3">
+      <label for="nombre">Nombre</label>
+      <input id="nombre" [(ngModel)]="nombre" type="text" class="form-control" placeholder="Ingrese su Nombre">
+    </div>
+    <div class="form-group mb-3">
+      <label for="fecha">Fecha</label>
+      <input id="fecha" [(ngModel)]="fecha" type="date" class="form-control">
+    </div>
+    <div class="form-group mb-3">
+      <label for="hora">Hora</label>
+      <input id="hora" [(ngModel)]="hora" type="time" class="form-control">
+    </div>
+    <div class="form-group mb-3">
+      <label for="sintomas">Sintomas</label>
+      <textarea id="sintomas" [(ngModel)]="sintomas" rows="3" class="form-control" placeholder="Ingrese los Sintomas"></textarea>
+    </div>
+    <button class="btn btn-primary btn-block" (click)="agregarCita()" width="100%">Guardar Cita</button>
+  </div>
+</div>

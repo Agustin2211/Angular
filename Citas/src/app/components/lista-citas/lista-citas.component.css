@@ -1,0 +1,11 @@
+card{
+  margin: 0px 40px;
+}
+
+card-text {
+  text-align: left;
+}
+
+span{
+  font-weight: 600;
+}
