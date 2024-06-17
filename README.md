@@ -12,3 +12,5 @@ Convertidor: Convertidor el cual calcula el cambio de Euro, Dolar y Libra, NO se
 CalculadoraBMI: Calculadora para conocer el Indice de Masa Muscular de una persona. Link de la calculadora: https://66315a02a9c5cb28c0dc62b0--gentle-yeot-4adafe.netlify.app/
 
 ListaDeEmpleados: Lista de Empleados de una empresa ficticia en la cual ya hay comunicacion entre un componente padre y un hijo. El componente padre le envia la informacion al hijo de la cantidad de empleados que hay. El componente hijo le envia al padre que hay seleccionado para que realice el filtro: https://6663629ddadd501f9cfe0495--sparkling-figolla-f03961.netlify.app/
+
+Citas: Aplicacion en la cual dos hijos se comunican gracias al padre. El primer componente (CrearCita) le envia la informacion al padre para que el segundo hijo(ListaDeCitas) cargue la cita. En el caso que se quiera borrar la cita, el componente ListaDeCitas le envia el evento al padre para que la elimine: https://666f7cc4a47b0a7a8d485557--celadon-cucurucho-842fc5.netlify.app/
